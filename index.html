@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="ro">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#001040" />
+    <meta
+      name="description"
+      content="Visual archive for Model European Union Timisoara 2026."
+    />
+    <title>MEU Timișoara 2026 | Visual Archive</title>
+    <link rel="icon" type="image/png" href="assets/meu-logo-white.png" />
+    <link rel="preconnect" href="https://www.googleapis.com" />
+    <link rel="preconnect" href="https://drive.google.com" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;0,700;1,400;1,600&family=DM+Sans:opsz,wght@9..40,300;9..40,400;9..40,500;9..40,600;9..40,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css?v=3" />
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="MEU Timisoara visual archive">
+        <span class="brand-mark">
+          <img src="assets/meu-logo-white.png" alt="" />
+        </span>
+        <span>
+          <strong>MEU Timișoara 2026</strong>
+          <small>Visual Archive</small>
+        </span>
+      </a>
+
+      <nav class="top-nav" aria-label="Primary navigation">
+        <a href="#albums">Albume</a>
+        <a href="#gallery">Galerie</a>
+        <a href="#platforms">Platforme</a>
+        <a class="nav-cta" href="https://meutm.github.io/meu-timisoara/" target="_blank" rel="noreferrer">
+          Main site
+        </a>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <div class="hero-copy">
+          <img class="hero-logo" src="assets/meu-logo-white.png" alt="Model European Union Timișoara" />
+          <p class="eyebrow">25-29 March 2026</p>
+          <h1 id="hero-title">Visual Archive</h1>
+        </div>
+
+        <div class="eu-orbit" aria-hidden="true">
+          <div class="eu-orbit-core">
+            <span>MEU</span>
+            <strong>2026</strong>
+          </div>
+          <span style="--i:0"></span>
+          <span style="--i:1"></span>
+          <span style="--i:2"></span>
+          <span style="--i:3"></span>
+          <span style="--i:4"></span>
+          <span style="--i:5"></span>
+          <span style="--i:6"></span>
+          <span style="--i:7"></span>
+          <span style="--i:8"></span>
+          <span style="--i:9"></span>
+          <span style="--i:10"></span>
+          <span style="--i:11"></span>
+        </div>
+
+        <div class="hero-panel" aria-label="Archive summary">
+          <dl class="stats-grid">
+            <div>
+              <dt id="photo-count">--</dt>
+              <dd>Photos</dd>
+            </div>
+            <div>
+              <dt id="album-count">5</dt>
+              <dd>Albums</dd>
+            </div>
+            <div>
+              <dt>25-29</dt>
+              <dd>March 2026</dd>
+            </div>
+          </dl>
+        </div>
+      </section>
+
+      <section class="section-shell" id="albums" aria-labelledby="albums-title">
+        <div class="section-heading">
+          <p class="eyebrow">Albume</p>
+          <h2 id="albums-title">MEU Timișoara 2026</h2>
+        </div>
+        <div class="album-list" id="album-list" aria-label="Photo albums"></div>
+      </section>
+
+      <section class="section-shell" id="gallery" aria-labelledby="gallery-title">
+        <div class="gallery-heading">
+          <div>
+            <p class="eyebrow">Galerie</p>
+            <h2 id="gallery-title">Toate fotografiile</h2>
+          </div>
+          <div class="gallery-actions" aria-label="Gallery controls">
+            <button class="filter-button is-active" type="button" data-album="all">
+              All photos
+            </button>
+          </div>
+        </div>
+
+        <div class="status-card" id="status-card" role="status"></div>
+
+        <div class="photo-grid" id="photo-grid" aria-live="polite"></div>
+        <button class="load-more" id="load-more" type="button">Load more</button>
+      </section>
+
+      <section class="platforms-section" id="platforms" aria-labelledby="platforms-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">Ecosistem digital</p>
+            <h2 id="platforms-title">MEU Timișoara platforms</h2>
+          </div>
+
+          <div class="platform-grid">
+            <a class="platform-card featured" href="https://meutm.github.io/meu-timisoara/" target="_blank" rel="noreferrer">
+              <span>01</span>
+              <strong>Main Event Website</strong>
+              <small>meutm.github.io/meu-timisoara/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-sponsors/" target="_blank" rel="noreferrer">
+              <span>02</span>
+              <strong>Sponsorship Portal</strong>
+              <small>meutm.github.io/meu-timisoara-sponsors/</small>
+            </a>
+            <a class="platform-card featured" href="https://meutm.github.io/meu-timisoara-participants/" target="_blank" rel="noreferrer">
+              <span>03</span>
+              <strong>Participant Guide App</strong>
+              <small>meutm.github.io/meu-timisoara-participants/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-certificate-generator/" target="_blank" rel="noreferrer">
+              <span>04</span>
+              <strong>Certificate Generator</strong>
+              <small>meutm.github.io/meu-timisoara-certificate-generator/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-voting/" target="_blank" rel="noreferrer">
+              <span>05</span>
+              <strong>Delegate Awards</strong>
+              <small>meutm.github.io/meu-voting/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-feedback/" target="_blank" rel="noreferrer">
+              <span>06</span>
+              <strong>Feedback Form</strong>
+              <small>meutm.github.io/meu-timisoara-feedback/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-amendment-portal/" target="_blank" rel="noreferrer">
+              <span>07</span>
+              <strong>Amendment Portal</strong>
+              <small>meutm.github.io/meu-timisoara-amendment-portal/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-agreement/" target="_blank" rel="noreferrer">
+              <span>08</span>
+              <strong>Participation Agreement</strong>
+              <small>meutm.github.io/meu-timisoara-agreement/</small>
+            </a>
+            <a class="platform-card" href="https://meutm.github.io/meu-timisoara-position-papers/" target="_blank" rel="noreferrer">
+              <span>09</span>
+              <strong>Position Papers Upload</strong>
+              <small>meutm.github.io/meu-timisoara-position-papers/</small>
+            </a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <dialog class="lightbox" id="lightbox">
+      <button class="lightbox-close" type="button" aria-label="Close photo">×</button>
+      <figure>
+        <img id="lightbox-image" alt="" />
+        <figcaption>
+          <strong id="lightbox-title"></strong>
+          <span id="lightbox-meta"></span>
+        </figcaption>
+      </figure>
+    </dialog>
+
+    <footer class="site-footer">
+      <p>Model European Union Timișoara · 25-29 March 2026</p>
+      <a href="mailto:office.meutm@gmail.com">office.meutm@gmail.com</a>
+    </footer>
+
+    <script src="photos-data.js?v=3"></script>
+    <script src="script.js?v=3"></script>
+  </body>
+</html>
